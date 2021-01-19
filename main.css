@@ -27,7 +27,7 @@ body{
 .subtittle{
     margin-top: 6vw;
     color: hsl(303, 10%, 53%);
-    font-weight: 400;
+    font-weight: 700;
     font-size: calc(0.6em + 1vw);
     text-align: center;
 }
@@ -57,12 +57,31 @@ body{
     border-radius: 0.8em;
     color: white;
     display: flex;
+    flex-wrap: wrap;
+}
+.d h2, .e h2, .f h2{
+    font-size: calc(0.7em + 1vw);
 }
 .d h3, .e h3, .f h3{
     color: hsl(333, 80%, 67%);
+    font-size: calc(0.7em + 1vw);
+    font-weight: 400;
+    margin-top: 1.5vw;
 }
-
+.name{
+    margin: 3vw;
+    margin-top: 12.5vw;
+}
+.texto{
+    margin: 6vw;
+    line-height: 6vw;
+    font-size: calc(0.6em + 1vw);
+    font-weight: 400;
+}
 .img{
-    border-radius: 4em;
-    height: 3em;
+    border-radius: 16em;
+    height: 12vw;
+    margin: 6vw;
+    margin-top: 12vw;
+    margin-bottom: 0;
 }
