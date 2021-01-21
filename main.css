@@ -85,3 +85,76 @@ body{
     margin-top: 12vw;
     margin-bottom: 0;
 }
+
+@media(min-width: 768px){
+    .main{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,auto);
+        grid-gap: 2vw;
+        margin: 8vw;
+    }
+    .d, .e, .f{
+        grid-row: 4;
+        height: 20em;
+    }
+    .a, .b, .c{
+        grid-column: 3;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0;
+        height: 100%;
+    }
+    .a p, .b p, .c p{
+        margin: 0;
+        font-size: calc(0.1em + 1vw);
+    }
+
+    .estrellas{
+        margin: 0;
+    }
+    .titulo{
+        grid-column: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 3;
+    }
+    .titulo h1{
+        text-align: left;
+    }
+    .subtittle{
+        text-align: left;
+        margin: 0%;
+        font-weight: 400;
+        font-size: calc(0.3em + 1vw);
+    }
+    .img{
+        height: 4vw;
+        margin: 3vw;
+    }
+    .name{
+        margin: 3vw;
+        margin-left: 0;
+    }
+    .texto{
+        line-height: 2vw;
+        font-size: calc(0.1em + 1vw);
+        margin: 0 2vw;
+        margin-bottom: 3vw;
+    }
+    .d{
+        margin: 0;
+    }
+    .e{
+        margin-top: 3vw;
+    }
+    .f{
+        margin-top: 6vw;
+    }
+    .d h2, .e h2, .f h2{
+        font-size: calc(0.3em + 1vw);
+    }
+    .d h3, .e h3, .f h3{
+        font-size: calc(0.3em + 1vw);
+        margin-top: 0.5vw;
+    }
+}
